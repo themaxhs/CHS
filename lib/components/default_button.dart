@@ -1,0 +1,29 @@
+import 'package:chs/constants.dart';
+import 'package:flutter/material.dart';
+
+class DefaultButton extends StatelessWidget {
+  const DefaultButton({
+    Key key,
+    this.text,
+    this.press,
+  }) : super(key: key);
+  final String text;
+  final Function press;
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: double.infinity,
+      height: 56,
+      child: FlatButton(
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        color: kPrimaryColor,
+        onPressed: press,
+        child: Text(
+          "Siguiente",
+          style: TextStyle(fontSize: 20, color: Colors.white),
+        ),
+      ),
+    );
+  }
+}
