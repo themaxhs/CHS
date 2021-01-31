@@ -1,6 +1,6 @@
-# chs
+# Creditos Hipotecarios Del Sureste
 
-A new Flutter project.
+Aplicacion de compra y venta para la empresa de Creditos Hipotecarios Del Sureste.
 
 ## Getting Started
 
